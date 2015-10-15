@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004DC0DA035EFE8EC81F53E5 /* libPods-YUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F74BC7EECE1F31354EA534A /* libPods-YUI.a */; };
 		A106A5321BCB957600605C6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A106A5311BCB957600605C6B /* main.m */; };
 		A106A5351BCB957600605C6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A106A5341BCB957600605C6B /* AppDelegate.m */; };
 		A106A5381BCB957600605C6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A106A5371BCB957600605C6B /* ViewController.m */; };
@@ -15,6 +16,11 @@
 		A106A5401BCB957600605C6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A106A53E1BCB957600605C6B /* LaunchScreen.storyboard */; };
 		A106A54B1BCB957600605C6B /* YUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A106A54A1BCB957600605C6B /* YUITests.m */; };
 		A106A5561BCB957600605C6B /* YUIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A106A5551BCB957600605C6B /* YUIUITests.m */; };
+		A106A5641BCB978D00605C6B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A106A5631BCB978D00605C6B /* MapKit.framework */; };
+		A106A5691BCB9B9100605C6B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A106A5681BCB9B9100605C6B /* CoreLocation.framework */; };
+		A106A56B1BCB9B9C00605C6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A106A56A1BCB9B9C00605C6B /* CoreGraphics.framework */; };
+		A106A56D1BCB9BA300605C6B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A106A56C1BCB9BA200605C6B /* QuartzCore.framework */; };
+		A1A008481BCBA186003B8AC9 /* demo.gpx in Resources */ = {isa = PBXBuildFile; fileRef = A1A008471BCBA186003B8AC9 /* demo.gpx */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F74BC7EECE1F31354EA534A /* libPods-YUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A106A52D1BCB957600605C6B /* YUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A106A5311BCB957600605C6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A106A5331BCB957600605C6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,13 @@
 		A106A5511BCB957600605C6B /* YUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A106A5551BCB957600605C6B /* YUIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUIUITests.m; sourceTree = "<group>"; };
 		A106A5571BCB957600605C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A106A5631BCB978D00605C6B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A106A5681BCB9B9100605C6B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A106A56A1BCB9B9C00605C6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A106A56C1BCB9BA200605C6B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A1A008471BCBA186003B8AC9 /* demo.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = demo.gpx; sourceTree = "<group>"; };
+		D1C58801870764A7EE48F0E1 /* Pods-YUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YUI/Pods-YUI.debug.xcconfig"; sourceTree = "<group>"; };
+		FDB90BAC25F60AD31D45B033 /* Pods-YUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-YUI/Pods-YUI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A106A56D1BCB9BA300605C6B /* QuartzCore.framework in Frameworks */,
+				A106A56B1BCB9B9C00605C6B /* CoreGraphics.framework in Frameworks */,
+				A106A5691BCB9B9100605C6B /* CoreLocation.framework in Frameworks */,
+				A106A5641BCB978D00605C6B /* MapKit.framework in Frameworks */,
+				004DC0DA035EFE8EC81F53E5 /* libPods-YUI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +97,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		371A8340EA2D41D5B237B14A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A106A56C1BCB9BA200605C6B /* QuartzCore.framework */,
+				A106A56A1BCB9B9C00605C6B /* CoreGraphics.framework */,
+				A106A5681BCB9B9100605C6B /* CoreLocation.framework */,
+				A106A5631BCB978D00605C6B /* MapKit.framework */,
+				2F74BC7EECE1F31354EA534A /* libPods-YUI.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62280635A1DE442AEF6BCDD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1C58801870764A7EE48F0E1 /* Pods-YUI.debug.xcconfig */,
+				FDB90BAC25F60AD31D45B033 /* Pods-YUI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A106A5241BCB957600605C6B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +125,8 @@
 				A106A5491BCB957600605C6B /* YUITests */,
 				A106A5541BCB957600605C6B /* YUIUITests */,
 				A106A52E1BCB957600605C6B /* Products */,
+				62280635A1DE442AEF6BCDD7 /* Pods */,
+				371A8340EA2D41D5B237B14A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,9 +148,7 @@
 				A106A5361BCB957600605C6B /* ViewController.h */,
 				A106A5371BCB957600605C6B /* ViewController.m */,
 				A106A5391BCB957600605C6B /* Main.storyboard */,
-				A106A53C1BCB957600605C6B /* Assets.xcassets */,
 				A106A53E1BCB957600605C6B /* LaunchScreen.storyboard */,
-				A106A5411BCB957600605C6B /* Info.plist */,
 				A106A5301BCB957600605C6B /* Supporting Files */,
 			);
 			path = YUI;
@@ -117,6 +157,9 @@
 		A106A5301BCB957600605C6B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A106A53C1BCB957600605C6B /* Assets.xcassets */,
+				A106A5411BCB957600605C6B /* Info.plist */,
+				A1A008471BCBA186003B8AC9 /* demo.gpx */,
 				A106A5311BCB957600605C6B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -147,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A106A55A1BCB957600605C6B /* Build configuration list for PBXNativeTarget "YUI" */;
 			buildPhases = (
+				B69B8F30FA4415F1D554C401 /* Check Pods Manifest.lock */,
 				A106A5291BCB957600605C6B /* Sources */,
 				A106A52A1BCB957600605C6B /* Frameworks */,
 				A106A52B1BCB957600605C6B /* Resources */,
+				646D863226397FDB0AF1FE22 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +252,7 @@
 				TargetAttributes = {
 					A106A52C1BCB957600605C6B = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 5X7BW5WG33;
 					};
 					A106A5451BCB957600605C6B = {
 						CreatedOnToolsVersion = 7.0;
@@ -245,6 +291,7 @@
 			files = (
 				A106A5401BCB957600605C6B /* LaunchScreen.storyboard in Resources */,
 				A106A53D1BCB957600605C6B /* Assets.xcassets in Resources */,
+				A1A008481BCBA186003B8AC9 /* demo.gpx in Resources */,
 				A106A53B1BCB957600605C6B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +311,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		646D863226397FDB0AF1FE22 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YUI/Pods-YUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B69B8F30FA4415F1D554C401 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A106A5291BCB957600605C6B /* Sources */ = {
@@ -409,23 +489,33 @@
 		};
 		A106A55B1BCB957600605C6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C58801870764A7EE48F0E1 /* Pods-YUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = YUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yanyabo.YUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "85108471-ba82-484f-b449-f34138c141a6";
 			};
 			name = Debug;
 		};
 		A106A55C1BCB957600605C6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDB90BAC25F60AD31D45B033 /* Pods-YUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = YUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yanyabo.YUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "85108471-ba82-484f-b449-f34138c141a6";
 			};
 			name = Release;
 		};
@@ -496,6 +586,7 @@
 				A106A55C1BCB957600605C6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A106A55D1BCB957600605C6B /* Build configuration list for PBXNativeTarget "YUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +595,7 @@
 				A106A55F1BCB957600605C6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A106A5601BCB957600605C6B /* Build configuration list for PBXNativeTarget "YUIUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +604,7 @@
 				A106A5621BCB957600605C6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
